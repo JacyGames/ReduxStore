@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/JacyGames/ReduxStore/precache-manifest.61423ebac1c5b5215672bdd288208e69.js"
+  "/JacyGames/ReduxStore/precache-manifest.a51cfc84309a550f7f571417a65200fd.js"
 );
 
 self.addEventListener('message', (event) => {

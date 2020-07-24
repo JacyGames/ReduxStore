@@ -1,24 +1,32 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import {Redirect, Route, Switch} from "react-router-dom";
+import './App.css'
+import StorePageContainer from "./components/StorePage/StorePageContainer";
+import MainHomePage from "./components/HomePage/MainHomePage";
+import HeaderContainer from "./components/Header/HeaderContainer";
+import NavBarContainer from "./components/NavBar/NavBarContainer";
 
-function App() {
+function App(props) {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={"wrapper"}>
+        <div className={"header"}>
+            <HeaderContainer />
+
+        </div>
+
+
+        <div className={"sidebar"}>
+            <NavBarContainer {...props}/>
+        </div>
+        <div className={"content"}>
+            <Switch>
+                <Route exact path={"/"} render={() => <Redirect to={"/home"} />} />
+                <Route path={"/home"} component={MainHomePage} />
+                <Route path={"/store"} component={StorePageContainer}/>
+
+            </Switch>
+        </div>
+
     </div>
   );
 }

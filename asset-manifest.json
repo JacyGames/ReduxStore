@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/JacyGames/ReduxStore/static/css/main.d9da0604.chunk.css",
-    "main.js": "/JacyGames/ReduxStore/static/js/main.dfdafe78.chunk.js",
-    "main.js.map": "/JacyGames/ReduxStore/static/js/main.dfdafe78.chunk.js.map",
-    "runtime-main.js": "/JacyGames/ReduxStore/static/js/runtime-main.482d21ed.js",
-    "runtime-main.js.map": "/JacyGames/ReduxStore/static/js/runtime-main.482d21ed.js.map",
-    "static/js/2.7f5e5b54.chunk.js": "/JacyGames/ReduxStore/static/js/2.7f5e5b54.chunk.js",
-    "static/js/2.7f5e5b54.chunk.js.map": "/JacyGames/ReduxStore/static/js/2.7f5e5b54.chunk.js.map",
-    "index.html": "/JacyGames/ReduxStore/index.html",
-    "precache-manifest.a51cfc84309a550f7f571417a65200fd.js": "/JacyGames/ReduxStore/precache-manifest.a51cfc84309a550f7f571417a65200fd.js",
-    "service-worker.js": "/JacyGames/ReduxStore/service-worker.js",
-    "static/css/main.d9da0604.chunk.css.map": "/JacyGames/ReduxStore/static/css/main.d9da0604.chunk.css.map",
-    "static/js/2.7f5e5b54.chunk.js.LICENSE.txt": "/JacyGames/ReduxStore/static/js/2.7f5e5b54.chunk.js.LICENSE.txt"
+    "main.css": "/ReduxStore/static/css/main.d9da0604.chunk.css",
+    "main.js": "/ReduxStore/static/js/main.f49c544e.chunk.js",
+    "main.js.map": "/ReduxStore/static/js/main.f49c544e.chunk.js.map",
+    "runtime-main.js": "/ReduxStore/static/js/runtime-main.76c19183.js",
+    "runtime-main.js.map": "/ReduxStore/static/js/runtime-main.76c19183.js.map",
+    "static/js/2.7f5e5b54.chunk.js": "/ReduxStore/static/js/2.7f5e5b54.chunk.js",
+    "static/js/2.7f5e5b54.chunk.js.map": "/ReduxStore/static/js/2.7f5e5b54.chunk.js.map",
+    "index.html": "/ReduxStore/index.html",
+    "precache-manifest.66bd61cb89888b5dbe10f81fa3e4cac8.js": "/ReduxStore/precache-manifest.66bd61cb89888b5dbe10f81fa3e4cac8.js",
+    "service-worker.js": "/ReduxStore/service-worker.js",
+    "static/css/main.d9da0604.chunk.css.map": "/ReduxStore/static/css/main.d9da0604.chunk.css.map",
+    "static/js/2.7f5e5b54.chunk.js.LICENSE.txt": "/ReduxStore/static/js/2.7f5e5b54.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.482d21ed.js",
+    "static/js/runtime-main.76c19183.js",
     "static/js/2.7f5e5b54.chunk.js",
     "static/css/main.d9da0604.chunk.css",
-    "static/js/main.dfdafe78.chunk.js"
+    "static/js/main.f49c544e.chunk.js"
   ]
 }
